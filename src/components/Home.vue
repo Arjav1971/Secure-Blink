@@ -191,7 +191,7 @@
         </div>
       </div>
     </div>
-    <div class="mt-32 relative bg-container p-20">
+    <div class=" relative bg-container p-20">
       <img
         :src="FifthBG"
         alt="Side Image"
