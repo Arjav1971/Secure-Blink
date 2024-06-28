@@ -13,7 +13,9 @@
           <div class="text-white text-lg">Case Studies</div>
           <div class="text-white text-lg">Testimonials</div>
           <div class="text-white text-lg">Contact</div>
-          <button class="btn px-8 text-lg" @click="navigateToLogin">Login</button>
+          <button class="btn px-8 text-lg" @click="navigateToLogin">
+            Login
+          </button>
         </div>
       </div>
       <div class="flex flex-col w-1/2 mt-32 gap-10">
@@ -98,6 +100,95 @@
           alt="Side Image"
           class="h-80 absolute -bottom-28 -right-32"
         />
+      </div>
+    </div>
+    <div class="flex bg-container">
+      <div class="w-4/5 flex flex-col pl-32 pt-52 pb-40">
+        <div class="text-[#0E77FF] flex items-center">
+          <v-icon aria-hidden="true" class="rotate-90">mdi-triangle</v-icon>
+          <div class="text-lg my-text font-bold ml-2">OUR SERVICES</div>
+        </div>
+        <div class="mt-5 text-3xl font-semibold leading-snug w-3/5">
+          Transforming your ideas into Reality
+        </div>
+        <div class="mt-10 flex flex-col gap-5">
+          <div class="flex gap-5">
+            <div
+              class="bg-[#16B2FF17] text-[#0E77FF] font-semibold my-text py-3 px-5 rounded-lg"
+            >
+              Web Development
+            </div>
+            <div
+              class="bg-[#16B2FF17] text-[#0E77FF] font-semibold my-text py-3 px-5 rounded-lg"
+            >
+              Mobile Development
+            </div>
+          </div>
+          <div class="flex gap-5">
+            <div
+              class="bg-[#0E77FF] text-white font-semibold my-text py-3 px-5 rounded-lg"
+            >
+              UI/UX Designing
+            </div>
+            <div
+              class="bg-[#16B2FF17] text-[#0E77FF] font-semibold my-text py-3 px-5 rounded-lg"
+            >
+              Branding
+            </div>
+          </div>
+          <div class="flex gap-5">
+            <div
+              class="bg-[#16B2FF17] text-[#0E77FF] font-semibold my-text py-3 px-5 rounded-lg"
+            >
+              Cloud Technology
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="relative w-4/5 h-120 flex justify-center">
+        <!-- Blue Background -->
+        <div class="absolute right-0 top-0 bg-[#0E77FF] w-1/2 h-full z-0"></div>
+
+        <!-- White Background -->
+        <div
+          class="absolute left-0 top-0 bg-white py-10 pl-10 shadow-custom-blue my-20 w-1/2 h-4/5 z-10 flex flex-col rounded-md"
+        >
+          <!-- <div class="flex items-center gap-3 w-full">
+            <img :src="UiLogo" alt="Side Image" />
+            <div class="my-text text-3xl font-semibold">UI/UX Designing</div>
+          </div> -->
+        </div>
+
+        <!-- Text Overlay -->
+        <div class="relative z-20 p-10 pl-20 top-16">
+          <div class="flex items-center gap-3 w-full">
+            <img :src="UiLogo" alt="Side Image" />
+            <div class="my-text text-3xl font-semibold">UI/UX Designing</div>
+          </div>
+          <p class="mt-8 w-4/5 leading-loose">
+            Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam
+            ex odio, is the turpis accu msan congue euisque blandit dui Pelle
+            ntesque habitant.
+          </p>
+          <ul class="mt-5 space-y-8">
+            <li class="flex items-center">
+              <img :src="TickLg" alt="Side Image" class="mr-2" />
+              Lorem ipsum dolor sit amet, conse ctetur adipi scing elit.
+            </li>
+            <li class="flex items-center">
+              <img :src="TickLg" alt="Side Image" class="mr-2" />
+              Lorem ipsum dolor sit amet,
+            </li>
+            <li class="flex items-center">
+              <img :src="TickLg" alt="Side Image" class="mr-2" />
+              conse ctetur adipi scing elit.
+            </li>
+            <li class="flex items-center">
+              <img :src="TickLg" alt="Side Image" class="mr-2" />
+              Lorem ipsum dolor sit amet, conse ctetur
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="mt-32 relative bg-container p-20">
@@ -195,8 +286,10 @@
       </div>
     </div>
     <div
-      class="bg-cover bg-no-repeat pr-30 " :style="{ backgroundImage: `url(${SixthBG})` }">
-          <img :src="TriangleImg" alt="Side Image" class="ml-20" />
+      class="bg-cover bg-no-repeat pr-30"
+      :style="{ backgroundImage: `url(${SixthBG})` }"
+    >
+      <img :src="TriangleImg" alt="Side Image" class="ml-20" />
 
       <div class="flex">
         <div class="w-1/2 ml-10 mt-48">
@@ -271,7 +364,7 @@
           </div>
         </div>
       </div>
-      <div class="flex pb-20 ">
+      <div class="flex pb-20">
         <div class="flex flex-col w-2/5">
           <div class="px-10 leading-relaxed mt-20 text-white my-text">
             Lorem Finaldream rure dolor in reprehenderit in voluptate velit esse
@@ -290,7 +383,7 @@
             </div>
           </div>
         </div>
-        <div class="w-4/5 flex gap-10 ml-20 mt-10  justify-between">
+        <div class="w-4/5 flex gap-10 ml-20 mt-10 justify-between">
           <div class="flex flex-col gap-5">
             <div class="text-lg font-semibold text-white">
               Our Services
@@ -317,16 +410,17 @@
               <hr class="border-t-4 border-[#21B3FF] mt-2 w-1/2" />
             </div>
             <div class="text-white flex gap-4 w-4/5">
-              <v-icon aria-hidden="true" class=""
-                >mdi-map-marker</v-icon
-              >Al. Dummyodl 124/23 floor 123 Banswara Street, 02-577 India.
+              <v-icon aria-hidden="true" class="">mdi-map-marker</v-icon>Al.
+              Dummyodl 124/23 floor 123 Banswara Street, 02-577 India.
             </div>
-            <div class="text-white  flex text-lg gap-4"><v-icon aria-hidden="true" class=""
-                >mdi-phone-outline</v-icon
-              >00 1800 245 453</div>
-            <div class="text-white flex text-lg  gap-4"><v-icon aria-hidden="true" class=""
-                >mdi-email-outline</v-icon
-              >hello@inkyy.com</div>
+            <div class="text-white flex text-lg gap-4">
+              <v-icon aria-hidden="true" class="">mdi-phone-outline</v-icon>00
+              1800 245 453
+            </div>
+            <div class="text-white flex text-lg gap-4">
+              <v-icon aria-hidden="true" class="">mdi-email-outline</v-icon
+              >hello@inkyy.com
+            </div>
           </div>
         </div>
       </div>
@@ -342,7 +436,7 @@ import ThirdBG from "../assets/Group 35698.svg";
 import FourthBG from "../assets/Group 35650.svg";
 import FifthBG from "../assets/Group 35700.svg";
 import SixthBG from "../assets/Path 37456.png";
-import { useRouter } from 'vue-router';
+import { useRouter } from "vue-router";
 import ReactLg from "../assets/React-icon.svg";
 import AWSLg from "../assets/Amazon_Web_Services_Logo.svg";
 import CloudLg from "../assets/Mask Group 1.svg";
@@ -353,15 +447,17 @@ import AWSLg1 from "../assets/Amazon_Web_Services_Logo (1).svg";
 import FireLg from "../assets/_Path_3 (1).svg";
 import NodeLg from "../assets/Mask Group 3 (1).svg";
 import SideImg from "../assets/Group 35686.svg";
-import TriangleImg from "../assets/Path 37660.svg"
+import TriangleImg from "../assets/Path 37660.svg";
+import UiLogo from "../assets/Group 35621.svg";
+import TickLg from "../assets/Group 35604.svg";
 export default {
-   setup() {
+  setup() {
     const router = useRouter();
 
     const navigateToLogin = () => {
-      router.push('/login');
+      router.push("/login");
     };
-      return {
+    return {
       navigateToLogin,
       FirstBG,
       // Other data...
@@ -385,7 +481,9 @@ export default {
       FireLg: FireLg,
       NodeLg: NodeLg,
       SideImg: SideImg,
-      TriangleImg:TriangleImg,
+      TriangleImg: TriangleImg,
+      UiLogo: UiLogo,
+      TickLg: TickLg,
     };
   },
 };
