@@ -1,0 +1,7 @@
+/* Import Vuetify styles */
+@import 'vuetify/styles'; /* Ensure this is the correct path to Vuetify styles */
+
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
