@@ -195,9 +195,7 @@
       </div>
     </div>
     <div
-      class="bg-cover bg-no-repeat pr-30 "
-      :style="{ backgroundImage: `url(${SixthBG})` }"
-    >
+      class="bg-cover bg-no-repeat pr-30 " :style="{ backgroundImage: `url(${SixthBG})` }">
           <img :src="TriangleImg" alt="Side Image" class="ml-20" />
 
       <div class="flex">
@@ -343,7 +341,7 @@ import SecondBG from "../assets/Group 35699.svg";
 import ThirdBG from "../assets/Group 35698.svg";
 import FourthBG from "../assets/Group 35650.svg";
 import FifthBG from "../assets/Group 35700.svg";
-import SixthBG from "../assets/Path 37456.svg";
+import SixthBG from "../assets/Path 37456.png";
 import { useRouter } from 'vue-router';
 import ReactLg from "../assets/React-icon.svg";
 import AWSLg from "../assets/Amazon_Web_Services_Logo.svg";
