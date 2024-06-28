@@ -12,7 +12,6 @@
     "@mdi/js": "^7.4.47",
     "@tailwindcss/forms": "^0.5.7",
     "axios": "^1.7.2",
-    "oh-vue-icons": "^1.0.0-rc3",
     "pinia": "^2.1.7",
     "react-icons": "^5.2.1",
     "vue": "^3.4.29",
